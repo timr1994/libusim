@@ -1,0 +1,44 @@
+/* SPDX-License-Identifier: BSD-3-Clause  */
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+ *  Copyright 2020, Fraunhofer Institute for Secure Information Technology SIT.
+ *  All rights reserved.
+ *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+/*
+ * 
+ *  @file test.h
+ *  @author Tim Riemann<tim.riemann@sit.fraunhofer.de>
+ *  @date 2020-05-22
+ * 
+ *  @copyright Copyright 2020, Fraunhofer Institute for Secure Information Technology SIT. All rights reserved.
+ * 
+ *  @license BSD 3-Clause "New" or "Revised" License (SPDX-License-Identifier:
+ *  BSD-3-Clause)
+ * 
+ */
+#ifndef TEST_H
+#define TEST_H
+#cmakedefine PTHREADFOUND
+
+#include <stdio.h>
+#include <string.h>
+#include <unistd.h>
+#include <time.h>
+#include "rand_help.h"
+#include "../uiim.h"
+#ifdef PTHREADFOUND
+#include <pthread.h>
+#endif
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
+
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* TEST_H */
+
