@@ -4,9 +4,12 @@
 
 The code in this repository accompanies our publication on "Userspace Software Integrity Measurement" at the *The 16th International Conference on Availability, Reliability and Security* (ARES 2021).
 
+- Michael Eckel <michael.eckel@sit.fraunhofer.de> (@eckelmeckel)
+- Tim Riemann <tim.riemann@sit.fraunhofer.de> (@timr1994)
+
 ---
 
-Uses the Docker enviorment from [CHARRA](https://github.com/Fraunhofer-SIT/charra) as base.
+Uses the Docker enviorment from [CHARRA](https://github.com/Fraunhofer-SIT/charra) as a basis.
 
 ## TODO
 - [x] function addEntry(PCR, interpreter, file, hash)
